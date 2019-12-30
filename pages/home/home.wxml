@@ -1,3 +1,26 @@
 <!--pages/home/home.wxml-->
 <text class='title'>hello world</text>
 <button size="mini">按钮</button>
+<button open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取授权</button>
+<view wx:for="{{list}}">{{item.acm}}</view>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
+<button bindtap="handleClick">{{message}}</button>
