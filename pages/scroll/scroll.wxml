@@ -1,0 +1,26 @@
+<!-- 1.水平滚动：scroll-x -->
+<scroll-view class="container1" scroll-x>
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+
+
+<!-- 1.垂直滚动：scroll-y -->
+<scroll-view class="container2" scroll-y>
+  <view wx:for="{{10}}" class="item2">{{item}}</view>
+</scroll-view>
+
+<!-- 3.其他属性补充 -->
+<scroll-view class="container2" 
+             scroll-y 
+             bindscroll="handleScroll">
+  <view wx:for="{{10}}" class="item2">{{item}}</view>
+</scroll-view>
+
+<!-- 4.upper-threshold 距顶触发scrolltoupper -->
+<!-- 4.lower-threshold 距顶触发scrolltolower -->
+<scroll-view class="container2" 
+             scroll-y 
+             lower-threshold="50"
+             bindscrolltolower="tolower">
+  <view wx:for="{{10}}" class="item2">{{item}}</view>
+</scroll-view>

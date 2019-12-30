@@ -1,0 +1,33 @@
+<!-- 1.image的基本使用 -->
+<!-- 
+  重点：
+     1.image组件可以写成单标签，也可以写成双标签
+     2.imgae默认有自己的大小: 320*240
+     3.image组件是一个行内块级元素(inline-block)
+ -->
+ <image/>
+ <text>哈哈哈</text>
+
+ <!-- 2.src: 本地路径(相对路径/绝对路径)/远程地址 -->
+ <!-- 绝对路径 前面先写杠 报错了？ -->
+ <image src="../assets/aaa.jpg"></image>
+ <!-- <image src="/assets/aaa.jpg"></image> -->
+ <image src="http://www.biquge.info/files/article/image/1/1760/1760s.jpg"></image>
+
+ <!-- 补充:相册中的图片 -->
+<button bindtap="handle">选中图片</button>
+<image src="{{imagePath}}"></image>
+
+<!-- 3.bindload:监听图片加载完成 -->
+<!-- 3.lazy-load:图片懒加载，在进入图片上下三屏的时候，开始加载 -->
+<view>-------------------------------</view>
+<image wx:for="{{3}}"
+src="http://www.biquge.info/files/article/image/1/1760/1760s.jpg" 
+bindload="handleImageLoad" 
+  lazy-load></image>
+
+
+<!-- 4.show-menu-by-longpress:长按图片出现小程序码 -->
+<image src="http://www.biquge.info/files/article/image/1/1760/1760s.jpg" show-menu-by-longpress></image>
+
+

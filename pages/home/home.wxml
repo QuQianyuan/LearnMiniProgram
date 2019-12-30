@@ -1,3 +1,7 @@
 <!--pages/home/home.wxml-->
-<text class='title'>hello world</text>
+<!-- 1.所有组件的公共的属性 -->
+<text class='title' id='content'>hello world</text>
 <button size="mini">按钮</button>
+
+<!-- 2.hiddens属性 默认显示 -->
+<view hidden>哈哈哈</view>
