@@ -1,0 +1,4 @@
+/* pages/wxss/wxss.wxss */
+@import '/pages/wxss/style/box.wxss'
+@import './style/content.wxss'
+@import './style/weui-searchbar.wxss'

@@ -1,0 +1,17 @@
+.box {
+  color: blue;
+  font-size: 30px;
+}
+.box1 {
+  background: blue;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
+.box3 {
+  width: 200rpx;
+  height: 200rpx;
+  background: purple;
+}
