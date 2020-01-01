@@ -1,0 +1,12 @@
+/* components/my-style/my-style.wxss */
+.title {
+  font-size: 50rpx;
+  font-weight: 700;
+}
+.content {
+  font-size: 36rpx;
+}
+/*id/标签/属性/这三个选择器在小程序中是不被允许的*/
+/* #box {
+  background: orange;
+} */
