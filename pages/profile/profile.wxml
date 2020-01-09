@@ -1,0 +1,8 @@
+<!--pages/profile/profile.wxml-->
+<!-- 1.头像登录个人信息等 -->
+<w-header/>
+<!-- 2.余额优惠积分等 -->
+<w-info/>
+<!-- 3.可以点击选项？ -->
+<w-list-view infos="{{orderList}}"/>
+<w-list-view infos="{{serviceList}}"/>

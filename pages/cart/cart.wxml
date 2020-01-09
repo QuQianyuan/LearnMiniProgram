@@ -1,0 +1,7 @@
+<!--pages/cart/cart.wxml-->
+<view class="cart">
+<block wx:for="{{cartList}}" wx:key="index">
+  <w-cart-item goods="{{item}}" index="{{index}}"/>
+</block>
+<bottom-bar selected="{{selected}}" price="{{totalPrice}}" counter="{{totalCounter}}" bindonSelectAll="onSelectAll"/>
+</view>

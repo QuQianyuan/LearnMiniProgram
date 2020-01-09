@@ -1,0 +1,21 @@
+/* components/w-goods/w-goods.wxss */
+.goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.goods > .item {
+  width: 48%;
+  position: relative;
+  margin-top: 16rpx;
+}
+  /* 注意事项：zaiwxss中不能引用本地图片，只能引用网络图片 */
+/* .cfav::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: -1px;
+  width: 14px;
+  height: 14px;
+  background: url('/assets/images/common/favor.png') 0 0/14px 14px;
+} */

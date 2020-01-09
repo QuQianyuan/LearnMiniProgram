@@ -1,0 +1,40 @@
+/* pages/profile/childCpns/w-header/w-header.wxss */
+
+.header {
+  height: 170rpx;
+  background: #ff5777;
+  padding: 14rpx 0 14rpx 26rpx;
+  display: flex;
+}
+
+.left image {
+  width: 140rpx;
+  height: 140rpx;
+  background: #f2f2f2;
+  border-radius: 70rpx;
+}
+
+.center {
+  color: #fff;
+}
+
+.center .login {
+  font-size: 36rpx;
+  margin: 18rpx 0 0 30rpx;
+}
+
+.center .phone {
+  font-size: 28rpx;
+  margin: 0 0 0 30rpx;
+}
+.center .phone image {
+  width: 36rpx;
+  height: 36rpx;
+  position: relative;
+  top: 10rpx;
+}
+.right image {
+  width: 60rpx;
+  height: 60rpx;
+  margin: 30rpx 0 0 250rpx;
+}

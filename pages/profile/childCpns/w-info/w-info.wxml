@@ -1,0 +1,13 @@
+<!--pages/profile/childCpns/w-info/w-info.wxml-->
+<view class="info">
+  <block wx:for="{{list}}" wx:key="index">
+    <view class="info-item">
+      <view class="yuan">
+        <text class="shuzi">{{item.num}}</text>
+        {{item.unit}}
+      </view>
+      <view class="yu-e">{{item.describe}}</view>
+    </view>
+
+  </block>
+</view>

@@ -1,0 +1,22 @@
+<!--pages/detail/childCpns/w-comment-info/w-comment-info.wxml-->
+<wxs src="../../../../wxs/format.wxs" module="format"/>
+<view class="comment-info">
+  <view class="header">
+    <view class="left">用户评价</view>
+    <view class="right">更多 >></view>
+  </view>
+  <view class="user">
+    <image src="{{commentInfo.user.avatar}}"/>
+    <text>{{commentInfo.user.uname}}</text>
+  </view>
+  <view class="content">{{commentInfo.content}}</view>
+  <view class="other-info">
+    <view class="time">{{format.dateFormat(commentInfo.created,'yyyy-MM-dd hh:mm:ss')}}</view>
+    <view class="style">{{commentInfo.style}}</view>
+  </view>
+  <view class="picture">
+    <block wx:for="{{commentInfo.images}}" wx:key="index">
+      <image src="{{item}}" mode="widthFix"/>
+    </block>
+  </view>
+</view>

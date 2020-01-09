@@ -1,0 +1,55 @@
+/* pages/cart/childCpns/w-cart-item/w-cart-item.wxss */
+
+.cart-item {
+  display: flex;
+  padding: 20rpx;
+  align-items: center; /*垂直居中？*/
+  border: 1px solid #eee;
+}
+
+.item-icon {
+  width: 60rpx;
+}
+
+.item-image {
+  width: 200rpx;
+}
+
+.item-image image {
+  width: 180rpx;
+  height: 240rpx;
+  border-radius: 16rpx;
+}
+
+.item-info {
+  flex: 1;
+  width: 300rpx;
+}
+
+.item-info .title {
+  font-size: 34rpx;
+  font-weight: 700;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /*文字只显示一行*/
+}
+
+.item-info .desc {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /*文字只显示一行*/
+}
+
+.item-info .price-count {
+  display: flex;
+  margin-top: 40rpx;
+  justify-content: space-between; /*让里面的的标签在两边*/
+}
+
+.price-count .price {
+  color: #ff5777;
+  font-size: 40rpx;
+}

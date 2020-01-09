@@ -1,0 +1,24 @@
+<!--pages/detail/detail.wxml-->
+<!-- 1.顶部轮播 -->
+<w-swiper class="d-swiper" banners="{{topImages}}"/>
+
+<!-- 2.描述 价格 包邮等 -->
+<w-base-info baseInfo="{{baseInfo}}"/>
+
+<!-- 3.店铺相关信息 -->
+<w-shop-info ShopInfo="{{ShopInfo}}"/>
+
+<!-- 4.商品信息图片 -->
+<w-detail-info detailInfo="{{detailInfo}}"/>
+
+<!-- 5.商品参数信息 -->
+<w-params-info paramsInfo="{{paramsInfo}}"/>
+
+<!-- 6.商品评论信息 -->
+<w-comment-info commentInfo="{{commentInfo}}"/>
+
+<!-- 7.推荐数据 -->
+<w-recommends recommends="{{recommends}}"/>
+
+<!-- 8.底部固定按钮栏 -->
+<w-bottom-bar bindappcart="onAddCart"/>
